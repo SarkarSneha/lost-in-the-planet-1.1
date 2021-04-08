@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LOST IN THE PLANET</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAg1nnf6r60zeFkCi5OU8l_VBuIpgV5Sj4",
+    authDomain: "lost-in-the-planet.firebaseapp.com",
+    databaseURL: "https://lost-in-the-planet-default-rtdb.firebaseio.com",
+    projectId: "lost-in-the-planet",
+    storageBucket: "lost-in-the-planet.appspot.com",
+    messagingSenderId: "636528108708",
+    appId: "1:636528108708:web:bdb75722acf0aff1563231"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+   
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="Story.js"></script>
+    <script src="Astronaut.js"></script>
+    <script src="Game.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
